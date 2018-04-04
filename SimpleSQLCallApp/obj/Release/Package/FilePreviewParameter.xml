@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="jebrook-webapp__stg" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\jebrook\\documents\\visual\ studio\ 2015\\Projects\\SimpleSQLCallApp\\SimpleSQLCallApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\jebrook\\documents\\visual\ studio\ 2015\\Projects\\SimpleSQLCallApp\\SimpleSQLCallApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:jebrook-webappwithdatabasedbserver.database.windows.net,1433;Initial Catalog=jebrook-webappwithdatabase_db;User ID=null@jebrook-webappwithdatabasedbserver.database.windows.net;Password=Pa$$w0rd!" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jebrook\\documents\\visual\ studio\ 2015\\Projects\\SimpleSQLCallApp\\SimpleSQLCallApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
